@@ -1,10 +1,13 @@
-import React from 'react'
+import React from "react";
+import Setup from "../src/tutorial/10-prop-types/setup/Product";
+
+
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
+    <div className="container">
+      <Setup />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
